@@ -40,7 +40,7 @@ a{
 }
 
 .social{
-  color: #2800D7;
+  color: silver;
   text-decoration: none;
 }
 
@@ -127,8 +127,35 @@ table{
   color: silver;
   font-size: 13px;
   border: 0px;
-
 }
 
+#sidebar {
+  background-color: #2800D7;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 120px;
+  text-align: center;
+}
 
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
 
+#sidebar li {
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+
+#sidebar a {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+}
+#sidebar a:hover {
+color: #320E3B;
+}
+
+/*#2800D7*/
